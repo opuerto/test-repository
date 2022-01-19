@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/node',
+1 verbose cli   '/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '--//registry.npmjs.org/:_authToken=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',
+1 verbose cli   '--no-git-checks'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.0
+4 verbose npm-session ebcf673135849cd8
+5 verbose publish [ '.' ]
+6 info lifecycle my-controls@1.0.0~prepublish: my-controls@1.0.0
+7 info lifecycle my-controls@1.0.0~prepare: my-controls@1.0.0
+8 info lifecycle my-controls@1.0.0~prepublishOnly: my-controls@1.0.0
+9 info lifecycle my-controls@1.0.0~prepack: my-controls@1.0.0
+10 info lifecycle my-controls@1.0.0~postpack: my-controls@1.0.0
+11 notice
+12 notice 📦  my-controls@1.0.0
+13 notice === Tarball Contents ===
+14 notice 0    _tmp_36986_3975e30386c9170aecb0c8b2eecea91a
+14 notice 0    _tmp_37410_287e5388b74454a937dbf878363f449b
+14 notice 0    _tmp_37441_491550a8e69b0261fd84365c3021a51b
+14 notice 70B  lib/index.js
+14 notice 250B lib/MyClass.js
+14 notice 403B package.json
+14 notice 125B .rush/temp/shrinkwrap-deps.json
+14 notice 124B tsconfig.json
+14 notice 172B my-controls.build.log
+14 notice 201B lib/index.js.map
+14 notice 346B lib/MyClass.js.map
+14 notice 37B  lib/index.d.ts
+14 notice 37B  src/index.ts
+14 notice 58B  lib/MyClass.d.ts
+14 notice 95B  src/MyClass.ts
+15 notice === Tarball Details ===
+16 notice name:          my-controls
+16 notice version:       1.0.0
+16 notice package size:  1.4 kB
+16 notice unpacked size: 1.9 kB
+16 notice shasum:        2432addd7d49167a74a31ef550371bc4b92e2044
+16 notice integrity:     sha512-9Rgn4pODB87M3[...]33qULx05n3jKQ==
+16 notice total files:   15
+17 notice
+18 http fetch PUT 403 https://registry.npmjs.org/my-controls 302ms
+19 verbose stack Error: 403 Forbidden - PUT https://registry.npmjs.org/my-controls - You do not have permission to publish "my-controls". Are you logged in as the correct user?
+19 verbose stack     at /Users/oscarpuerto/.nvm/versions/node/v14.17.0/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+20 verbose statusCode 403
+21 verbose pkgid my-controls@1.0.0
+22 verbose cwd /Users/oscarpuerto/Documents/github/test-repository/libraries/my-controls
+23 verbose Darwin 21.1.0
+24 verbose argv "/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/node" "/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/npm" "publish" "--ignore-scripts" "--//registry.npmjs.org/:_authToken=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" "--no-git-checks"
+25 verbose node v14.17.0
+26 verbose npm  v6.14.13
+27 error code E403
+28 error 403 403 Forbidden - PUT https://registry.npmjs.org/my-controls - You do not have permission to publish "my-controls". Are you logged in as the correct user?
+29 error 403 In most cases, you or one of your dependencies are requesting
+29 error 403 a package version that is forbidden by your security policy.
+30 verbose exit [ 1, true ]

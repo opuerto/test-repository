@@ -1,0 +1,6 @@
+{
+  "allPreferredVersions": {},
+  "allowedAlternativeVersions": {},
+  "semverPath": "/Users/oscarpuerto/.rush/node-v14.17.0/rush-5.47.0/node_modules/semver/index.js",
+  "userPnpmfilePath": "/Users/oscarpuerto/Documents/github/test-repository/common/config/rush/.pnpmfile.cjs"
+}

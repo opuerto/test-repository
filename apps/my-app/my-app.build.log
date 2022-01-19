@@ -1,0 +1,6 @@
+Unable to calculate incremental build state. Instead running full rebuild. Ensure Git is present.
+
+Invoking: node_modules/.bin/my-build 
+
+Invoking my-toolchain...
+Success!

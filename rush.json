@@ -447,9 +447,10 @@
     },
 
     {
-      "packageName": "my-controls",
+      "packageName": "opuerto-my-controls",
       "projectFolder": "libraries/my-controls",
-      "reviewCategory": "production"
+      "reviewCategory": "production",
+      "shouldPublish": true
     },
 
     {

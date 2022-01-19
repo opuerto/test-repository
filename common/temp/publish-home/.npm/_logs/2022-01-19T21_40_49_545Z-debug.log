@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/node',
+1 verbose cli   '/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '--//npm.pkg.github.com/:_authToken=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',
+1 verbose cli   '--no-git-checks'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.0
+4 verbose npm-session 2c681ebacd546e09
+5 verbose publish [ '.' ]
+6 info lifecycle opuerto-my-controls@1.0.0~prepublish: opuerto-my-controls@1.0.0
+7 info lifecycle opuerto-my-controls@1.0.0~prepare: opuerto-my-controls@1.0.0
+8 info lifecycle opuerto-my-controls@1.0.0~prepublishOnly: opuerto-my-controls@1.0.0
+9 info lifecycle opuerto-my-controls@1.0.0~prepack: opuerto-my-controls@1.0.0
+10 info lifecycle opuerto-my-controls@1.0.0~postpack: opuerto-my-controls@1.0.0
+11 notice
+12 notice 📦  opuerto-my-controls@1.0.0
+13 notice === Tarball Contents ===
+14 notice 0    _tmp_36986_3975e30386c9170aecb0c8b2eecea91a
+14 notice 0    _tmp_37410_287e5388b74454a937dbf878363f449b
+14 notice 0    _tmp_37441_491550a8e69b0261fd84365c3021a51b
+14 notice 0    _tmp_37572_c8cb8d1d35e1b66bd04871901726d406
+14 notice 0    _tmp_37595_80cde5e57581c7f4b30aabbf5979eb41
+14 notice 70B  lib/index.js
+14 notice 250B lib/MyClass.js
+14 notice 411B package.json
+14 notice 125B .rush/temp/shrinkwrap-deps.json
+14 notice 124B tsconfig.json
+14 notice 172B my-controls.build.log
+14 notice 201B lib/index.js.map
+14 notice 346B lib/MyClass.js.map
+14 notice 37B  lib/index.d.ts
+14 notice 37B  src/index.ts
+14 notice 58B  lib/MyClass.d.ts
+14 notice 127B src/MyClass.ts
+15 notice === Tarball Details ===
+16 notice name:          opuerto-my-controls
+16 notice version:       1.0.0
+16 notice package size:  1.5 kB
+16 notice unpacked size: 2.0 kB
+16 notice shasum:        0627c02d3eef0677b06db9d66b01252482e95428
+16 notice integrity:     sha512-plx9Rn08VuaZ/[...]nk2LXut/TFVvg==
+16 notice total files:   17
+17 notice
+18 http fetch PUT 404 https://npm.pkg.github.com/opuerto-my-controls 164ms
+19 verbose stack Error: 404 Not Found - PUT https://npm.pkg.github.com/opuerto-my-controls
+19 verbose stack     at /Users/oscarpuerto/.nvm/versions/node/v14.17.0/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+19 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+20 verbose statusCode 404
+21 verbose pkgid opuerto-my-controls@1.0.0
+22 verbose cwd /Users/oscarpuerto/Documents/github/test-repository/libraries/my-controls
+23 verbose Darwin 21.1.0
+24 verbose argv "/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/node" "/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/npm" "publish" "--ignore-scripts" "--//npm.pkg.github.com/:_authToken=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" "--no-git-checks"
+25 verbose node v14.17.0
+26 verbose npm  v6.14.13
+27 error code E404
+28 error 404 Not Found - PUT https://npm.pkg.github.com/opuerto-my-controls
+29 error 404
+30 error 404 'opuerto-my-controls@1.0.0' is not in the npm registry.
+31 error 404 You should bug the author to publish it (or use the name yourself!)
+32 error 404 Note that you can also install from a
+33 error 404 tarball, folder, http url, or git url.
+34 verbose exit [ 1, true ]

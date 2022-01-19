@@ -1,5 +1,5 @@
 {
-  "name": "my-controls",
+  "name": "opuerto-my-controls",
   "version": "1.0.0",
   "description": "An example library project",
   "license": "MIT",
@@ -9,6 +9,12 @@
     "build": "node_modules/.bin/my-build",
     "my-bulk-command": "node_modules/.bin/my-bulk-command"
   },
+  "repository": {
+    "url": "https://github.com/opuerto/test-repository.git"
+ },
+ "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+ },   
   "dependencies": {},
   "devDependencies": {
     "my-toolchain": "^1.0.0",

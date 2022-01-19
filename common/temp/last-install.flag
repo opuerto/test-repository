@@ -1,0 +1,6 @@
+{
+  "node": "14.17.0",
+  "packageManager": "pnpm",
+  "packageManagerVersion": "6.3.0",
+  "storePath": "/Users/oscarpuerto/Documents/github/test-repository/common/temp/pnpm-store"
+}

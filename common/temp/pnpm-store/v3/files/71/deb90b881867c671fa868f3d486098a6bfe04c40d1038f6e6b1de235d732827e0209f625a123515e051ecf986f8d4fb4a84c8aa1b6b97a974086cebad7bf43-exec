@@ -1,0 +1,13 @@
+{
+  "name": "@rush-temp/my-app",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "typescript": "^3.0.3",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "rushDependencies": {
+    "my-controls": "^1.0.0",
+    "my-toolchain": "^1.0.0"
+  }
+}
