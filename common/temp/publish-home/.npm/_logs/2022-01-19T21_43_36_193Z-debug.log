@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/node',
+1 verbose cli   '/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   'opuerto-my-controls',
+1 verbose cli   'time',
+1 verbose cli   '--json',
+1 verbose cli   '--//npm.pkg.github.com/:_authToken=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'
+1 verbose cli ]
+2 info using npm@6.14.13
+3 info using node@v14.17.0
+4 verbose npm-session 4fd9d9441c32f630
+5 http fetch GET 404 https://npm.pkg.github.com/opuerto-my-controls 288ms
+6 verbose stack Error: 404 Not Found - GET https://npm.pkg.github.com/opuerto-my-controls
+6 verbose stack     at /Users/oscarpuerto/.nvm/versions/node/v14.17.0/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:117:15
+6 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+7 verbose statusCode 404
+8 verbose pkgid opuerto-my-controls@latest
+9 verbose cwd /Users/oscarpuerto/Documents/github/test-repository/libraries/my-controls
+10 verbose Darwin 21.1.0
+11 verbose argv "/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/node" "/Users/oscarpuerto/.nvm/versions/node/v14.17.0/bin/npm" "view" "opuerto-my-controls" "time" "--json" "--//npm.pkg.github.com/:_authToken=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"
+12 verbose node v14.17.0
+13 verbose npm  v6.14.13
+14 error code E404
+15 error 404 'opuerto-my-controls' is not in the npm registry.
+15 error 404 You should bug the author to publish it
+15 error 404 (or use the name yourself!)
+15 error 404
+15 error 404 Note that you can also install from a
+15 error 404 tarball, folder, http url, or git url.
+16 error 404
+17 error 404 'opuerto-my-controls@latest' is not in the npm registry.
+18 error 404 You should bug the author to publish it (or use the name yourself!)
+19 error 404 Note that you can also install from a
+20 error 404 tarball, folder, http url, or git url.
+21 verbose exit [ 1, true ]
