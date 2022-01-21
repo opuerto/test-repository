@@ -1,0 +1,33 @@
+name: Publish package
+
+on:
+  workflow_dispatch:
+jobs:
+  publish-packages:
+    runs-on: ubuntu-lastest
+
+    steps:
+      - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+      
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.16.1
+
+        # Install all repository dependencies
+      - name: Run rush install
+        run: 'node common/scripts/install-run-rush.js install'
+      - name: Rush Rebuild
+        run: 'node common/scripts/install-run-rush.js rebuild --verbose'
+      - name: Git config
+        run: | 
+          git config --local user.email 'dgcfrontend@users.noreply.github.com'
+          git config --local user.name 'dgcfrontend'
+      - name: Rush version 
+        run: 'node common/scripts/install-run-rush.js version --bump --target-branch master'
+      - name: Rush publish
+        run: 'node common/scripts/install-run-rush.js publish --apply --include-all --registry ${{secrets.REGISTRY_URL}} --npm-auth-token ${{secrets.NPM_TOKEN}} --publish --target-branch master --add-commit-details'  
+
+      
